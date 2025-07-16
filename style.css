@@ -6,20 +6,14 @@
 .navBar {
     display: flex;
     justify-content: space-between;
-    /* justify-content: space-around; */
     position: relative;
-    /* left: 0vh; */
 }
 
 .navBar img {
     width: 10vw;
-    /* position: inherit;
-    left: 30px; */
 }
-
 .navBar h1 {
     position: relative;
-    /* top: 40px; */
     margin-top: 35px;
     right: 10vh;
     font-size: 40px;
@@ -32,26 +26,17 @@
     font-family:Michroma;
     color: rgb(97, 86, 107);
 }
-
 .navBar h1:hover {
     border: 5px solid rgb(167, 98, 232);
     border-radius: 20px;
-    /* width: 40vw;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
 }
-
 nav {
     background-color:rgb(174, 104, 239);
 }
-
 * {
     padding: 0;
     margin: 0;
 }
-
 .body {
     display: flex;
     gap: 60px;
@@ -60,8 +45,6 @@ nav {
     position: relative;
     top: 20vh;
 }
-
-
 #rock,
 #paper,
 #scissor {
@@ -69,13 +52,11 @@ nav {
     height: 120px;
     border-radius: 50%;
     overflow: hidden;
-    /* border: 3px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
-
 #rock img,
 #paper img,
 #scissor img {
@@ -84,32 +65,25 @@ nav {
     object-fit: cover;
     border-radius: 50%;
 }
-
 #rock img:hover,
 #paper img:hover,
 #scissor img:hover {
     border: 20px solid whitesmoke;
 }
-
 body {
     background-color: whitesmoke;
-    /* background: linear-gradient(to right, #1f1c2c, #928dab);
-    color: #fff; */
 }
-
 .scorecard {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     margin-top: 190px;
-    /* border: 2px solid black; */
     gap: 80px;
     font-family: Quicksand;
     font-weight: 600;
     color: rgb(97, 86, 107);
 }
-
 #comp-score,
 #user-score,
 #draw {
@@ -117,8 +91,6 @@ body {
     text-align: center;
     font-size: 50px;
 }
-
-
 .msg-container {
     display: flex;
     justify-content: center;
@@ -126,7 +98,6 @@ body {
     margin-top: 70px;
     cursor: pointer;
 }
-
 .msg {
     display: inline;
     border-radius: 5px;
